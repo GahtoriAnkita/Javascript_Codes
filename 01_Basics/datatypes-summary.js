@@ -16,7 +16,7 @@ console.log(id === anotherId);
 
 const bigNumber = 5425425n;
 
-// # Reference (Non-Primitive)
+// # Reference (Non-Primitive)  --> (call by reference)
 
 // ---> Array, Objects, Functions
 const heros = ["ram", "reeta", "faran"];
@@ -30,3 +30,29 @@ const myFun = function () {
 }
 
 console.log(typeof bigNumber);
+
+
+// +++++++++++++++++++++++++++++++++-- Stack and Heap --+++++++++++++++++++++++++++++++++
+
+//Stack (Primitive), Heap(Non-Premitive)
+
+let myName = "Ankita";
+let anotherName = myName;
+anotherName = "Anku";
+
+console.log(myName);
+console.log(anotherName);
+
+let userone = {
+    name : "aarti",
+    rollno : 1,
+}
+
+let userTwo = userone;
+userTwo.name = "Aastha";
+userTwo.rollno=4;
+
+console.log(userTwo);
+console.log(userone);
+
+
