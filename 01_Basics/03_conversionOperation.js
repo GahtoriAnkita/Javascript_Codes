@@ -57,7 +57,11 @@ num1 = num2 = num3 = 2 + 2;
 console.log(num1);
 
 let gamecounter = 100;
-gamecounter++;
+let x = gamecounter++;
 console.log(gamecounter);
-++gamecounter;
+console.log("value of x is " , x);
+let z = ++x;
+let y = ++gamecounter;
+console.log("value of y is " , y);
+console.log("value of z is " , z);
 console.log(gamecounter);
