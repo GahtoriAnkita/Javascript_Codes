@@ -3,7 +3,7 @@ let accountEmail = "ankita@goggle.com"
 var accountPassword = "12345"
 accountCity = "Delhi"
 let accountstate;
-/*Perefer not to use of war because of issue in block and functional scope*/
+/*Perefer not to use of var because of issue in block and functional scope*/
 
 // accountId = 2 // not allowed
 accountEmail = "fgh@google.com"
