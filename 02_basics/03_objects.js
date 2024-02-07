@@ -28,8 +28,8 @@ Jsuser.email = "ankita@mail.com";
 Object.freeze(Jsuser);
 
 function g1(){
-    return xy
+    return xy;
 }
 let x= g1;
-console.log(x);
+console.log(x);  //it return whole function
 
