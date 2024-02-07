@@ -1,4 +1,6 @@
 const marvel_heros = ["thor",'Iroman',"spiderman"]
+// marvel_heros[0]="blue";
+// console.log(marvel_heros);
 const dc_heros = ["superman","flash","batman"]
 
 // marvel_heros.push(dc_heros);
